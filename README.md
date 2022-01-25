@@ -16,12 +16,12 @@ To use the library in your project write this code to your build.gradle:
 ```groovy
 buildscript {
     repositories {
-        jcenter()
+        maven { url 'https://jitpack.io' }
     }
 }
 
 dependencies {
-    compile 'com.github.yasevich:endless-recycler-view:2.0.0'
+    implementation 'com.github.LouisP79:endless-recycler-view:2.0.1'
 }
 ```
 
